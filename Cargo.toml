@@ -3,8 +3,10 @@ name = "libsignal-rust"
 version = "0.1.0"
 edition = "2021"
 description = "Complete and Powerful Rust implementation of libsignal protocol"
-license = "GPL-3.0"
-authors = ["libsignal-rust"]
+license = "MIT"
+homepage = "https://github.com/DitzDev/libsignal-rust"
+repository = "https://github.com/DitzDev/libsignal-rust"
+authors = ["DitzDev"]
 
 [dependencies]
 curve25519-dalek = { version = "4.1", features = ["rand_core", "digest"] }
